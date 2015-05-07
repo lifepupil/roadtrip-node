@@ -8,7 +8,7 @@
     "node": "0.12.x"
   },
   "scripts": {
-    "start" : "node index.js"
+    "start" : "NODE_ENV=production node index.js"
   },
   "dependencies": {
     "blipp": "^2.1.3",
